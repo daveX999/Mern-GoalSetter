@@ -29,6 +29,7 @@ function Dashboard() {
     return () => {
       dispatch(reset())
     }
+    // eslint-disable-next-line
   }, [user, navigate, dispatch])
 
   if (isLoading) {
